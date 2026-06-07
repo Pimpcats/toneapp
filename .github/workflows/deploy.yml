@@ -5,6 +5,11 @@ on:
     branches:
       - claude/leanbuild-workout-app-RdodQ
       - main
+    # The image-fetch workflow does its own build + deploy, so don't also fire
+    # this one for those changes (they share the "pages" concurrency group).
+    paths-ignore:
+      - 'scripts/fetch-images.mjs'
+      - '.github/workflows/fetch-images.yml'
   workflow_dispatch:
 
 permissions:
