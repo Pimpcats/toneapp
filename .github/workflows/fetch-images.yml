@@ -1,23 +1,41 @@
-name: Fetch exercise images
+name: Fetch exercise images and deploy
 
-# Manually-triggered job that pulls open-licensed exercise photos from
-# free-exercise-db (public domain) and commits them to the repo. Pushing the
-# new images to the default branch triggers the Pages deploy workflow.
+# Pulls open-licensed exercise photos from free-exercise-db (public domain),
+# commits them, then builds and deploys the site in the same run. Runs on push
+# when the fetch script or this workflow changes (so it can be kicked without
+# the Actions dispatch API), and is also available via "Run workflow".
+#
+# Self-contained on purpose: a commit pushed by GITHUB_TOKEN does not trigger
+# other workflows, so this run handles the deploy itself rather than relying on
+# deploy.yml to fire afterwards.
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/fetch-images.mjs'
+      - '.github/workflows/fetch-images.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  fetch:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
       - name: Download and match images
         run: node scripts/fetch-images.mjs
       - name: Commit images
@@ -31,3 +49,18 @@ jobs:
             git commit -m "Add open-licensed exercise photos (free-exercise-db, public domain)"
             git push
           fi
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
