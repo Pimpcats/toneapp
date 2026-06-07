@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Seated Cable Row form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Seated Cable Row</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  
+  <line x1="185.0" y1="205.0" x2="202.3" y2="151.7" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="202.3" y1="151.7" x2="194.5" y2="122.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="194.5" y1="122.8" x2="187.3" y2="95.7" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="202.3" y1="151.7" x2="197.1" y2="122.2" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="197.1" y1="122.2" x2="192.2" y2="94.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="185.0" y1="205.0" x2="147.1" y2="208.3" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="147.1" y1="208.3" x2="109.2" y2="207.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="185.0" y1="205.0" x2="147.1" y2="208.3" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="147.1" y1="208.3" x2="109.2" y2="207.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="210.3" cy="127.0" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="190.0" y1="205.0" x2="186.1" y2="149.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="186.1" y1="149.1" x2="193.9" y2="120.2" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="193.9" y1="120.2" x2="219.2" y2="108.3" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="186.1" y1="149.1" x2="196.4" y2="120.9" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="196.4" y1="120.9" x2="222.7" y2="111.4" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="190.0" y1="205.0" x2="152.1" y2="208.3" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="152.1" y1="208.3" x2="114.2" y2="207.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="190.0" y1="205.0" x2="152.1" y2="208.3" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="152.1" y1="208.3" x2="114.2" y2="207.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="184.3" cy="123.2" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M120,150 Q178,162.5 200,175" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="117.0" rx="9" ry="9" width="84.0" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="82.0" y="133.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Tall torso</text>
+</g>
+  <g>
+  <rect x="255.0" y="222.0" rx="9" ry="9" width="90.6" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="300.3" y="238.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Elbows back</text>
+</g>
+</svg>

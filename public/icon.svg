@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="LeanBuild icon">
+  <rect width="180" height="180" rx="40" fill="#0f1115"/>
+  <rect x="14" y="14" width="152" height="152" rx="32" fill="#22c1a4"/>
+  <!-- schematic barbell -->
+  <g stroke="#04130f" stroke-linecap="round">
+    <line x1="52" y1="90" x2="128" y2="90" stroke-width="10"/>
+    <line x1="50" y1="68" x2="50" y2="112" stroke-width="14"/>
+    <line x1="130" y1="68" x2="130" y2="112" stroke-width="14"/>
+    <line x1="38" y1="78" x2="38" y2="102" stroke-width="12"/>
+    <line x1="142" y1="78" x2="142" y2="102" stroke-width="12"/>
+  </g>
+</svg>

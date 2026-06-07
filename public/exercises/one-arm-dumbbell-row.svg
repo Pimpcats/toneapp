@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="One-Arm DB Row form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">One-Arm DB Row</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  <line x1="150" y1="235" x2="280" y2="235" stroke="#c4ccd8" stroke-width="7" stroke-linecap="round"/>
+  <line x1="215" y1="235" x2="215" y2="261" stroke="#c4ccd8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180.0" y1="205.0" x2="234.8" y2="193.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="234.8" y1="193.4" x2="237.4" y2="163.5" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="237.4" y1="163.5" x2="239.8" y2="135.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="234.8" y1="193.4" x2="208.8" y2="178.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="208.8" y1="178.4" x2="184.5" y2="164.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="180.0" y1="205.0" x2="173.4" y2="242.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="173.4" y1="242.4" x2="166.8" y2="279.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="180.0" y1="205.0" x2="184.0" y2="242.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="184.0" y1="242.8" x2="151.1" y2="261.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="260.2" cy="188.0" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="180.0" y1="205.0" x2="234.8" y2="193.4" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="234.8" y1="193.4" x2="237.4" y2="163.5" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="237.4" y1="163.5" x2="239.8" y2="135.6" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="234.8" y1="193.4" x2="219.8" y2="167.4" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="219.8" y1="167.4" x2="235.8" y2="144.4" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180.0" y1="205.0" x2="173.4" y2="242.4" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="173.4" y1="242.4" x2="166.8" y2="279.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="180.0" y1="205.0" x2="184.0" y2="242.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="184.0" y1="242.8" x2="151.1" y2="261.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="260.2" cy="188.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <circle cx="239.8" cy="135.6" r="7" fill="#22c1a4" stroke="#22c1a4" stroke-width="0"/>
+  <circle cx="235.8" cy="144.4" r="7" fill="#22c1a4" stroke="#22c1a4" stroke-width="0"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M230,250 Q245.5,227.5 225,205" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="107.0" rx="9" ry="9" width="77.4" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="78.7" y="123.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Flat back</text>
+</g>
+  <g>
+  <rect x="255.0" y="182.0" rx="9" ry="9" width="84.0" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="297.0" y="198.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Row to hip</text>
+</g>
+</svg>

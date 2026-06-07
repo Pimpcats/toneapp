@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Face Pull form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Face Pull</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  
+  <line x1="200.0" y1="196.0" x2="198.0" y2="140.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="198.0" y1="140.0" x2="187.8" y2="111.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="187.8" y1="111.8" x2="178.2" y2="85.5" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="198.0" y1="140.0" x2="208.3" y2="111.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="208.3" y1="111.8" x2="217.9" y2="85.5" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="196.0" x2="198.7" y2="234.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="198.7" y1="234.0" x2="197.3" y2="272.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="196.0" x2="201.3" y2="234.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="201.3" y1="234.0" x2="202.7" y2="272.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="197.1" cy="114.0" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="196.0" x2="198.0" y2="140.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="198.0" y1="140.0" x2="222.6" y2="122.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="222.6" y1="122.8" x2="249.7" y2="130.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="198.0" y1="140.0" x2="173.5" y2="122.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="173.5" y1="122.8" x2="146.4" y2="130.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="196.0" x2="198.7" y2="234.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="198.7" y1="234.0" x2="197.3" y2="272.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="196.0" x2="201.3" y2="234.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="201.3" y1="234.0" x2="202.7" y2="272.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="197.1" cy="114.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M120,150 Q170.5,150 185,150" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="97.0" rx="9" ry="9" width="90.6" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="85.3" y="113.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Elbows high</text>
+</g>
+  <g>
+  <rect x="250.0" y="137.0" rx="9" ry="9" width="97.2" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="298.6" y="153.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">To eye level</text>
+</g>
+</svg>

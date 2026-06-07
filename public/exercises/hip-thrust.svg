@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hip Thrust form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Hip Thrust</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="175" x2="200" y2="175" stroke="#c4ccd8" stroke-width="7" stroke-linecap="round"/>
+  <line x1="160" y1="175" x2="160" y2="201" stroke="#c4ccd8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="240.0" y1="245.0" x2="188.1" y2="224.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="188.1" y1="224.0" x2="173.1" y2="198.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="173.1" y1="198.0" x2="159.1" y2="173.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="188.1" y1="224.0" x2="177.8" y2="195.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="177.8" y1="195.8" x2="168.2" y2="169.5" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="240.0" y1="245.0" x2="204.3" y2="258.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="204.3" y1="258.0" x2="175.2" y2="233.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="240.0" y1="245.0" x2="204.3" y2="258.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="204.3" y1="258.0" x2="175.2" y2="233.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="164.0" cy="214.3" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="240.0" y1="205.0" x2="184.0" y2="205.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="184.0" y1="205.0" x2="169.0" y2="179.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="169.0" y1="179.0" x2="155.0" y2="154.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="184.0" y1="205.0" x2="173.7" y2="176.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="173.7" y1="176.8" x2="164.2" y2="150.5" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="240.0" y1="205.0" x2="207.1" y2="224.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="207.1" y1="224.0" x2="182.7" y2="194.9" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="240.0" y1="205.0" x2="207.1" y2="224.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="207.1" y1="224.0" x2="182.7" y2="194.9" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="158.0" cy="205.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M255,250 Q273,230 255,210" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="137.0" rx="9" ry="9" width="90.6" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="85.3" y="153.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Drive heels</text>
+</g>
+  <g>
+  <rect x="250.0" y="237.0" rx="9" ry="9" width="110.4" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="305.2" y="253.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Squeeze glutes</text>
+</g>
+</svg>

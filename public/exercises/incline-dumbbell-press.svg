@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Incline DB Press form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Incline DB Press</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  <line x1="150" y1="272" x2="270" y2="230" stroke="#c4ccd8" stroke-width="7" stroke-linecap="round"/>
+  <line x1="210" y1="251" x2="210" y2="277" stroke="#c4ccd8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="205.0" y1="205.0" x2="253.5" y2="177.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="253.5" y1="177.0" x2="227.5" y2="162.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="227.5" y1="162.0" x2="199.6" y2="159.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="253.5" y1="177.0" x2="227.5" y2="162.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="227.5" y1="162.0" x2="199.6" y2="159.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="205.0" y1="205.0" x2="169.3" y2="218.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="169.3" y1="218.0" x2="131.4" y2="214.7" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="205.0" y1="205.0" x2="169.3" y2="218.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="169.3" y1="218.0" x2="131.4" y2="214.7" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="276.0" cy="164.0" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="205.0" y1="205.0" x2="253.5" y2="177.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="253.5" y1="177.0" x2="227.5" y2="162.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="227.5" y1="162.0" x2="206.1" y2="144.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="253.5" y1="177.0" x2="227.5" y2="162.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="227.5" y1="162.0" x2="206.1" y2="144.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="205.0" y1="205.0" x2="169.3" y2="218.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="169.3" y1="218.0" x2="131.4" y2="214.7" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="205.0" y1="205.0" x2="169.3" y2="218.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="169.3" y1="218.0" x2="131.4" y2="214.7" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="276.0" cy="164.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <circle cx="206.1" cy="144.0" r="7" fill="#22c1a4" stroke="#22c1a4" stroke-width="0"/>
+  <circle cx="206.1" cy="144.0" r="7" fill="#22c1a4" stroke="#22c1a4" stroke-width="0"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M199.6232089518265,159.55963920306556 Q220.84531252144527,151.78079306592122 206.06741609106402,144.0019469287769" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="60.0" y="107.0" rx="9" ry="9" width="97.2" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="108.6" y="123.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Bench 30–45°</text>
+</g>
+  <g>
+  <rect x="250.0" y="82.0" rx="9" ry="9" width="70.8" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="285.4" y="98.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Press up</text>
+</g>
+</svg>

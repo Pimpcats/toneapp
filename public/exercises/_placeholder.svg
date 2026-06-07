@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Exercise form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Exercise</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  <line x1="200.0" y1="196.0" x2="200.0" y2="140.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="140.0" x2="185.0" y2="114.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="185.0" y1="114.0" x2="171.0" y2="89.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="140.0" x2="215.0" y2="114.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="215.0" y1="114.0" x2="229.0" y2="89.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="196.0" x2="198.7" y2="234.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="198.7" y1="234.0" x2="197.3" y2="272.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="196.0" x2="201.3" y2="234.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="201.3" y1="234.0" x2="202.7" y2="272.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200.0" cy="114.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <text x="200" y="292" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#586073" text-anchor="middle">form diagram</text>
+</svg>

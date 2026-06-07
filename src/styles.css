@@ -1,0 +1,372 @@
+:root {
+  --bg: #0f1115;
+  --surface: #181c24;
+  --surface-2: #20252f;
+  --border: #2a3140;
+  --text: #e7ebf2;
+  --text-dim: #9aa3b2;
+  --accent: #22c1a4;
+  --accent-dim: #155f53;
+  --accent-ink: #04130f;
+  --radius: 16px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  --max: 560px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.45;
+  /* Respect iOS safe areas when added to the home screen. */
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+}
+
+.app {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 18px 14px 48px;
+}
+
+/* ---------- header ---------- */
+.app-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.app-title {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+  font-weight: 800;
+}
+
+.app-title::first-letter {
+  color: var(--accent);
+}
+
+.app-subtitle {
+  margin: 2px 0 0;
+  color: var(--text-dim);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+/* ---------- day selector ---------- */
+.day-selector {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.day-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 4px;
+  min-height: 60px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-dim);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.day-tab-num {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.day-tab-focus {
+  font-size: 10px;
+  line-height: 1.15;
+  text-align: center;
+  color: inherit;
+  opacity: 0.85;
+}
+
+.day-tab.active {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+
+.day-tab.active .day-tab-focus {
+  opacity: 1;
+}
+
+/* ---------- day summary + progress ---------- */
+.day-summary {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.day-heading {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.day-progress-label {
+  margin: 2px 0 0;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+
+.reset-btn {
+  flex-shrink: 0;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.reset-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.progress-bar {
+  height: 8px;
+  width: 100%;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.25s ease;
+}
+
+/* ---------- cards ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.exercise-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exercise-card.complete {
+  border-color: var(--accent-dim);
+}
+
+.exercise-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+
+.exercise-body {
+  padding: 14px;
+}
+
+.exercise-name {
+  margin: 0 0 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.exercise-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+}
+
+.chip.strong {
+  background: rgba(34, 193, 164, 0.12);
+  color: var(--accent);
+  border-color: var(--accent-dim);
+  font-weight: 700;
+}
+
+/* ---------- set tracker ---------- */
+.set-tracker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.set-pill {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  border: 2px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text-dim);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.12s, color 0.12s, border-color 0.12s, transform 0.05s;
+}
+
+.set-pill:active {
+  transform: scale(0.92);
+}
+
+.set-pill.done {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* ---------- cues ---------- */
+.cues-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 0;
+  background: none;
+  border: none;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.caret {
+  transition: transform 0.15s;
+}
+
+.caret.up {
+  transform: rotate(180deg);
+}
+
+.cues {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  color: var(--text);
+}
+
+.cues li {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* ---------- cardio ---------- */
+.cardio-card {
+  background: linear-gradient(135deg, rgba(34, 193, 164, 0.16), rgba(34, 193, 164, 0.04));
+  border-color: var(--accent-dim);
+  padding: 16px;
+}
+
+.cardio-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.cardio-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--accent-ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.cardio-title {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.cardio-sub {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.cardio-note {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text);
+}
+
+/* ---------- progression ---------- */
+.progression {
+  padding: 16px;
+}
+
+.progression-title {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.progression p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-dim);
+}
+
+/* ---------- footer ---------- */
+.app-footer {
+  margin-top: 28px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 12px;
+}
+
+/* slightly roomier on larger screens */
+@media (min-width: 480px) {
+  .exercise-name {
+    font-size: 19px;
+  }
+}

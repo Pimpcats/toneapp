@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Goblet Squat form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Goblet Squat</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  
+  <line x1="200.0" y1="196.0" x2="207.8" y2="140.5" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="207.8" y1="140.5" x2="192.8" y2="114.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="192.8" y1="114.6" x2="168.5" y2="100.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="207.8" y1="140.5" x2="222.8" y2="114.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="222.8" y1="114.6" x2="198.5" y2="100.6" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="196.0" x2="193.4" y2="233.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="193.4" y1="233.4" x2="186.8" y2="270.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="196.0" x2="206.6" y2="233.4" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="206.6" y1="233.4" x2="213.2" y2="270.8" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="211.4" cy="114.8" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="232.0" x2="221.0" y2="180.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="221.0" y1="180.1" x2="206.0" y2="154.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="206.0" y1="154.1" x2="181.7" y2="140.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="221.0" y1="180.1" x2="236.0" y2="154.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="236.0" y1="154.1" x2="211.7" y2="140.1" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="232.0" x2="168.9" y2="253.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="168.9" y1="253.8" x2="184.9" y2="288.2" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="232.0" x2="231.1" y2="253.8" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="231.1" y1="253.8" x2="215.1" y2="288.2" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="230.7" cy="156.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M255,200 Q273,217.5 255,235" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="137.0" rx="9" ry="9" width="84.0" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="82.0" y="153.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Chest tall</text>
+</g>
+  <g>
+  <rect x="255.0" y="237.0" rx="9" ry="9" width="84.0" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="297.0" y="253.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Hips below</text>
+</g>
+</svg>

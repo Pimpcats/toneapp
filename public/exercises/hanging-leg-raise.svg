@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Hanging Leg Raise form diagram">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <text x="200" y="30" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="17" font-weight="700" fill="#1f2430" text-anchor="middle">Hanging Leg Raise</text>
+  <line x1="40" y1="268" x2="360" y2="268" stroke="#d7dce4" stroke-width="4" stroke-linecap="round"/>
+  <line x1="120" y1="60" x2="280" y2="60" stroke="#c4ccd8" stroke-width="7" stroke-linecap="round"/>
+  <line x1="200.0" y1="150.0" x2="200.0" y2="206.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="206.0" x2="199.0" y2="236.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="199.0" y1="236.0" x2="198.0" y2="264.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="206.0" x2="201.0" y2="236.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="201.0" y1="236.0" x2="202.0" y2="264.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="150.0" x2="198.7" y2="188.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="198.7" y1="188.0" x2="197.3" y2="226.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="150.0" x2="201.3" y2="188.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <line x1="201.3" y1="188.0" x2="202.7" y2="226.0" stroke="#aeb6c2" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 7"/>
+  <circle cx="200.0" cy="232.0" r="14" fill="#ffffff" stroke="#aeb6c2" stroke-width="5" stroke-dasharray="2 7"/>
+  <line x1="200.0" y1="150.0" x2="200.0" y2="206.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="206.0" x2="199.0" y2="236.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="199.0" y1="236.0" x2="198.0" y2="264.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="206.0" x2="201.0" y2="236.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="201.0" y1="236.0" x2="202.0" y2="264.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="150.0" x2="164.3" y2="163.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="164.3" y1="163.0" x2="126.4" y2="159.7" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="200.0" y1="150.0" x2="164.3" y2="163.0" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="164.3" y1="163.0" x2="126.4" y2="159.7" stroke="#22c1a4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="200.0" cy="232.0" r="14" fill="#ffffff" stroke="#22c1a4" stroke-width="6"/>
+  <g>
+  <defs><marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#22c1a4"/></marker></defs>
+  <path d="M200,230 Q245.5,197.5 255,165" fill="none" stroke="#22c1a4" stroke-width="4" stroke-linecap="round" marker-end="url(#ah)"/>
+</g>
+  <g>
+  <rect x="40.0" y="217.0" rx="9" ry="9" width="90.6" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="85.3" y="233.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">No swinging</text>
+</g>
+  <g>
+  <rect x="255.0" y="137.0" rx="9" ry="9" width="90.6" height="22" fill="#eef1f5" stroke="#dde2ea" stroke-width="1.5"/>
+  <text x="300.3" y="153.0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="12.5" fill="#586073" text-anchor="middle">Curl pelvis</text>
+</g>
+</svg>
