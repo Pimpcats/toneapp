@@ -19,7 +19,7 @@ export function ExerciseCard({ exercise, completed, onSetToggle }: Props) {
 
   return (
     <article className={`card exercise-card${completed === exercise.sets ? ' complete' : ''}`}>
-      <ExerciseImage src={exercise.image} alt={exercise.alt} />
+      <ExerciseImage slug={exercise.slug} src={exercise.image} alt={exercise.alt} />
 
       <div className="exercise-body">
         <h3 className="exercise-name">{exercise.name}</h3>
