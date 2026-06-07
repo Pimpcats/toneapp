@@ -10,6 +10,7 @@
 // It is non-destructive to the SVGs: <ExerciseImage> tries {slug}.jpg first and
 // falls back to the schematic {slug}.svg, then the placeholder.
 
+// rev: 1 — source: free-exercise-db (public domain)
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
