@@ -10,7 +10,7 @@
 // It is non-destructive to the SVGs: <ExerciseImage> tries {slug}.jpg first and
 // falls back to the schematic {slug}.svg, then the placeholder.
 
-// rev: 1 — source: free-exercise-db (public domain)
+// rev: 3 — source: free-exercise-db (public domain); fetch both motion frames
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -107,19 +107,34 @@ async function main() {
       continue
     }
 
-    // download the first image (start position); some entries have a 2nd.
-    let buf = null
-    for (const base of IMG_BASES) {
-      buf = await fetchBuffer(base + best.images[0])
-      if (buf) break
+    // free-exercise-db ships up to two frames per exercise (start + end).
+    // Download the first as {slug}.jpg and the second, if present, as
+    // {slug}-2.jpg so the UI can animate the motion.
+    const getImg = async (path) => {
+      for (const base of IMG_BASES) {
+        const b = await fetchBuffer(base + path)
+        if (b) return b
+      }
+      return null
     }
-    if (!buf) {
+
+    const frame0 = best.images[0] ? await getImg(best.images[0]) : null
+    if (!frame0) {
       report.push(`  ✗ ${slug.padEnd(34)} → "${best.name}" image 404 (keeps SVG)`)
       continue
     }
-    writeFileSync(resolve(OUT, `${slug}.jpg`), buf)
+    writeFileSync(resolve(OUT, `${slug}.jpg`), frame0)
     ok++
-    report.push(`  ✓ ${slug.padEnd(34)} → "${best.name}"`)
+
+    let frames = 1
+    if (best.images[1]) {
+      const frame1 = await getImg(best.images[1])
+      if (frame1) {
+        writeFileSync(resolve(OUT, `${slug}-2.jpg`), frame1)
+        frames = 2
+      }
+    }
+    report.push(`  ✓ ${slug.padEnd(34)} → "${best.name}" (${frames} frame${frames > 1 ? 's' : ''})`)
   }
 
   console.log('\nMatch report:')
