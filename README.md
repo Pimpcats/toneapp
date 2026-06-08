@@ -94,12 +94,15 @@ nothing traced or copied.
 The **photos** come from
 [free-exercise-db](https://github.com/yuhonas/free-exercise-db), released under
 The Unlicense (public domain). `scripts/fetch-images.mjs` fuzzy-matches each of
-the 25 movements to that database and downloads the best photo to
-`public/exercises/{slug}.jpg`. Because it needs network access, run it in CI via
-the **"Fetch exercise images"** workflow (Actions tab → Run workflow), which
-commits the photos and triggers a redeploy. The match rules live in the `MAP`
-table in `scripts/fetch-images.mjs` — tweak a `must`/`prefer`/`avoid` entry and
-re-run if a particular exercise matches the wrong photo.
+the 25 movements to that database and downloads up to **two motion frames** —
+the start position to `public/exercises/{slug}.jpg` and the end position to
+`public/exercises/{slug}-2.jpg`. When both exist the card cross-fades between
+them to animate the movement (with a "Start/End" label); under
+`prefers-reduced-motion` it shows a tap-to-toggle instead. Because it needs
+network access, run it in CI via the **"Fetch exercise images and deploy"**
+workflow, which commits the photos and redeploys. The match rules live in the
+`MAP` table in `scripts/fetch-images.mjs` — tweak a `must`/`prefer`/`avoid`
+entry and re-run if a particular exercise matches the wrong photo.
 
 To **regenerate all diagrams** (and the app icon):
 
